@@ -8,10 +8,8 @@ c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Micros
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Microsoft.WindowsAzure.Configuration.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Microsoft.WindowsAzure.Storage.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Abstractions.dll
-c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Client.Embedded.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Client.Lightweight.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Database.dll
-c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Web.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\System.Spatial.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Lucene.Net.dll
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Lucene.Net.Contrib.Spatial.NTS.dll
@@ -32,12 +30,9 @@ c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Micros
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Microsoft.WindowsAzure.Storage.xml
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Abstractions.pdb
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Abstractions.xml
-c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Client.Embedded.pdb
-c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Client.Embedded.xml
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Client.Lightweight.pdb
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Client.Lightweight.xml
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Database.pdb
-c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Raven.Web.pdb
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\System.Spatial.xml
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Lucene.Net.pdb
 c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\WebUI\bin\Lucene.Net.xml
