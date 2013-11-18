@@ -19,14 +19,14 @@ namespace WebUI.Models
             //ToDo:handle exception
         }
 
-        public void OnNext(DocumentChangeNotification value)
+        public void OnNext(DocumentChangeNotification documentChangeNotification)
         {
-            if (value.Type == DocumentChangeTypes.Put)
+            if (documentChangeNotification.Type == DocumentChangeTypes.Put)
             {
                 Email newEmail;
                 using (var session = MvcApplication.Store.OpenSession())
                 {
-                    newEmail = session.Load<Email>(value.Id);
+                    newEmail = session.Load<Email>(documentChangeNotification.Id);
                 }
 
                 new EmailHub().Send(newEmail.Sender, newEmail.Subject);
