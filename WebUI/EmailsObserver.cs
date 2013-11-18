@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using Entities;
 using Raven.Abstractions.Data;
 using WebUI.Hubs;
@@ -21,15 +18,15 @@ namespace WebUI.Models
 
         public void OnNext(DocumentChangeNotification documentChangeNotification)
         {
-            if (documentChangeNotification.Type == DocumentChangeTypes.Put)
+            if (documentChangeNotification.Type == DocumentChangeTypes.Put)//new document inserted
             {
                 Email newEmail;
                 using (var session = MvcApplication.Store.OpenSession())
                 {
-                    newEmail = session.Load<Email>(documentChangeNotification.Id);
+                    newEmail = session.Load<Email>(documentChangeNotification.Id);//get document by id
                 }
 
-                new EmailHub().Send(newEmail.Sender, newEmail.Subject);
+                new EmailHub().Send(newEmail.Sender, newEmail.Subject);//notify clients
             }
         }
     }

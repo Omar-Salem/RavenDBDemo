@@ -40,8 +40,6 @@ namespace WebUI
         {
             Store = new DocumentStore { ConnectionStringName = "RavenDB" };
             Store.Initialize();
-
-            //IndexCreation.CreateIndexes(Assembly.GetCallingAssembly(), _store);
             CheckForEmails();
             AreaRegistration.RegisterAllAreas();
 
@@ -53,7 +51,7 @@ namespace WebUI
         {
             Store
                 .Changes()
-                .ForDocumentsStartingWith("Emails/")
+                .ForDocumentsStartingWith("Emails/")//monitor our Emails document collection
             .Subscribe(new EmailsObserver());
         }
     }
