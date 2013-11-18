@@ -1,0 +1,5 @@
+c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\Entities\bin\Debug\Entities.dll
+c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\Entities\bin\Debug\Entities.pdb
+c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\Entities\obj\Debug\Entities.dll
+c:\users\omar\documents\visual studio 2010\Projects\RavenDBDemo\Entities\obj\Debug\Entities.pdb
+C:\Users\Omar\Documents\Visual Studio 2010\Projects\RavenDBDemo\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
